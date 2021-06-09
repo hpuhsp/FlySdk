@@ -65,7 +65,8 @@ dependencies {
     kapt rootProject.ext.dependencies["arouter-compiler"]
     // Glide
     kapt rootProject.ext.dependencies["glide-compiler"]
-    implementation project(':CommonSdk')
+//    implementation project(':CommonSdk')
+    implementation 'com.github.hpuhsp:FlySdk:1.0.2'
 //    implementation 'com.walle.mobile:base:1.4.0'
 //    implementation 'com.walle.mobile:base:1.4.2-20210604.095547-1'
 
