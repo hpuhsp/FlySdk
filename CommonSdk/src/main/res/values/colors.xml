@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--注意！！！：此处仅定义通用基础色，个性需求请在业务模块Module下colors.xml文件中进行定义-->
+    <!--系统默认-->
+    <color name="colorPrimaryDark">@color/light_blue</color>
+    <color name="colorOnPrimary">@color/light_blue</color>
+    <color name="colorAccent">@color/light_blue</color>
+    <color name="stateBarColor">@color/light_blue</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!--==================================基础色============================================-->
+    <!--透明-->
+    <color name="transparent">#00000000</color>
+    <!--BLUE——蓝色域-->
+    <color name="light_blue">#00A2FF</color>
+    <!--RED——红色域-->
+    <color name="general_red">#EA5502</color>
+    <!--GREEN——绿色域-->
+    <color name="general_green">#34CE96</color>
+    <!--YELLOW——橙色域-->
+    <color name="general_orange">#FEAB28</color>
+    <!--BLACK——黑色域-->
+    <color name="general_black">#3C3C3C</color>
+    <color name="black_33">#333333</color>
+    <!--WHITE——白色域-->
+    <color name="general_white">#FFFFFF</color>
+    <color name="white60">#99FFFFFF</color>
+    <color name="white10">#1AFFFFFF</color>
+    <color name="white15">#26FFFFFF</color>
+    <color name="white80">#CCFFFFFF</color>
+    <!--GRAY——灰色域-->
+    <color name="general_gray">#F3F3F3</color>
+    <!--GRAY——灰色域-->
+    <color name="general_blue">#409FFF</color>
+    <color name="gray_c4">#C4C4C4</color>
+    <color name="gray_66">#666679</color>
+    <color name="gray_99">#999999</color>
+    <color name="gray_b4">#B4B4B4</color>
+    <color name="gray_e1">#E1E1E1</color>
+    <color name="gray_e0">#E0E0E0</color>
+    <color name="gray_f3">#F3F3F3</color>
+    <color name="gray_e6">#E6E6E6</color>
+    <color name="gray">#C1C0C0</color>
+    <color name="gray_E0">#E0E0E0</color>
+    <color name="gray_4D">#C74D4D4D</color>
+    <color name="gray_b8">#B8B8B8</color>
+    <!--==================================页面主题颜色===============================================-->
+
+    <!--==================================背景颜色===============================================-->
+    <color name="bg_white">@color/white</color>
+    <color name="bg_gray_f3">#F3F3F3</color>
+    <color name="bg_transparent_60">#60000000</color>
+
+    <!--==================================文字颜色===============================================-->
+    <color name="text_black">@color/general_black</color>
+    <color name="text_white">@color/general_white</color>
+    <color name="text_blue">@color/general_blue</color>
+    <color name="text_gray">@color/gray_66</color>
+    <color name="text_green">@color/general_green</color>
+    <color name="text_hint">@color/gray_c4</color>
+    <color name="text_orange">@color/general_orange</color>
+    <color name="text_red">@color/general_red</color>
+    <!--==================================分割线颜色==============================================-->
+    <color name="divide_black">#4A4A4A</color>
+    <color name="divide_line">#E0E0E0</color>
+    <color name="divide_gray_b8">#B8B8B8</color>
+    <color name="divide_section">#F3F3F3</color>
+    <color name="divide_transparent">@color/transparent</color>
+    <color name="divide_green_line">@color/general_green</color>
+</resources>

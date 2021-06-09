@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PigChivalrous" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorPrimary">@color/colorOnPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorOnPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/light_blue</item>
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <!--        Customize your theme here.-->
+        <item name="toolbarStyle">@style/ClubToolbar</item>
+    </style>
+
+    <style name="ClubToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item>
+        <item name="android:minHeight">?android:attr/actionBarSize</item>
+        <!-- 设置该属性解决空白部分-->
+        <item name="elevation">0dp</item>
+    </style>
+</resources>
