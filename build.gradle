@@ -4,8 +4,6 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://jitpack.io' }
-        maven { url 'https://maven.google.com' }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.0.2"
@@ -22,8 +20,8 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://jitpack.io' }
         maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'https://jitpack.io' }
     }
     // 解决上传乱码问题
     tasks.withType(Javadoc) {

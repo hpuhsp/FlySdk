@@ -3,18 +3,30 @@
     package="com.fly.sdk">
 
     <application
+        android:name="com.fly.sdk.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FlySdk">
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.PigChivalrous">
+        <activity
+            android:name="com.fly.sdk.TestActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fly.sdk.main.MainActivity"
+            android:label="@string/app_name">
+            <!--            <intent-filter>-->
+            <!--                <action android:name="android.intent.action.MAIN" />-->
+
+            <!--                <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--            </intent-filter>-->
         </activity>
     </application>
 
